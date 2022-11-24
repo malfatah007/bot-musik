@@ -14,7 +14,7 @@ module.exports = {
         .setDescription('List all command bot excel vang.')
         .addFields([ { name: `Enabled - ${commands.size}`, value: commands.map(x => `\`${x.name}\``).join(' | ') } ])
         .setTimestamp()
-        .setFooter({ text: 'Asu', iconURL: inter.member.avatarURL({ dynamic: true })});
+        .setFooter({ text: 'Njir Coy', iconURL: inter.member.avatarURL({ dynamic: true })});
 
         inter.reply({ embeds: [embed] });
     },
