@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         token: 'XXX',
-        playing: 'by Zerio ❤️',
+        playing: '/Help and /Play Music',
         global: true,
         guild: 'XXX'
     },
@@ -16,7 +16,7 @@ module.exports = {
         leaveOnEnd: true,
         loopMessage: false,
         spotifyBridge: true,
-        defaultvolume: 75,
+        defaultvolume: 50,
         discordPlayer: {
             ytdlOptions: {
                 quality: 'highestaudio',
